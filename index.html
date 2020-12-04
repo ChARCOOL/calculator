@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Smart Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Matrices</h1>
+      <h2 onclick="showTable()" class="wrapper__matrix">Inverse of a matrix</h2>
+      <div class="wrapper__table--matrix"></div>
+      <button onclick="solveTable()" class="wrapper__btn--matrix">Solve!</button>
+      <textarea class="wrapper__solution--matrix" aria-required="true"></textarea>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
